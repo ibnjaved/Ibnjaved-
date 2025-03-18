@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+}
+.top{
+  margin-top: 10px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  background: #0015FF;
+  padding: 10px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width : 100%;
+  height: 600px;
+}
+.container1{
+  display: flex;
+}
+.brd{
+  border: 2px solid red;
+  border-radius: 50%;
+}
+.brd1{
+  border-radius: 50%;
+}
+.brd2{
+  border-top:2px solid lightgray;
+  border-right:2px solid lightgray;
+  border-bottom:2px solid lightgray;
+}
+.brd3{
+  padding: 10px;
+  border-top:2px solid lightgray;
+  border-left:2px solid lightgray;
+  border-right:2px solid lightgray;
+  border-bottom:2px solid lightgray;
+}
+.icon1{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.icon{
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+.nav{
+  display: flex;
+  gap: 5px;
+}
+.pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pic1{
+  display: flex;
+  gap: 5px;
+}
+.hed{
+  display: flex;
+  gap: 5px;
+}
+.heading{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.pera1{
+  font-size: 9px;
+  margin-top: -8px;
+}
+.pera2{
+  font-weight: bolder;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.manage{
+  font-weight: bolder;
+  font-size: 25px;
+}
+.box{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 5px;
+  border-bottom: 2px solid lightgray;
+  background: white; 
+  border-radius: 10px;
+}
+.box:hover{
+  background: #DAE5F4;
+}
+.box1{
+  height: 50px;
+  border-top:2px solid lightgray;
+  border-right:2px solid lightgray;
+  border-left:2px solid lightgray;
+
+}
+.box3{
+  background: white;
+  border-radius: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.box4{
+  background: white;
+  border-radius: 50%;
+}
+.box6{
+  border-bottom: 2px solid lightgray;
+  border-radius: 10px;
+}
+.link{
+  color: white;
+  text-decoration: none;
+}
+.manage{
+  font-weight: bolder;
+  margin-top: 10px;
+  display: flex;
+}
